@@ -13,7 +13,7 @@ Our Game is *ROLE DICE*
    Switch The Player & Put The Sum Of Random Numbers in the Score Of Another Player.
   ]
 
-Make this untill reach thr target *100*
+Make this untill reach thr target *50*
 
 2)When You Click on *NEW GAME* Button 
   [ 

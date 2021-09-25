@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Dice Game</title>
+</head>
+<body>
+<div style="display: flex;">
+<!--start section player1-->
+    <section class="player player0 ">
+        <h1>PLAYER 1</h1><br>
+<!--start final score-->
+        <div class="finalScore finalScore0">0</div>
+<!--end final score-->
+<!--start current score-->
+        <div class="current">
+            <p>CURRENT</p><br>
+        <div class="current-score" id="current-score0">0</div>
+        </div>
+<!--end current score-->
+    </section>
+<!--end section player1-->
+<!--start section player2-->
+    <section class="player player1 player--active">
+        <h1>PLAYER 2</h1><br>
+<!--start final score-->
+        <div class="finalScore finalScore1 ">0</div>
+<!--end final score-->
+<!--start current score-->
+        <div class="current">
+            <p>CURRENT</p><br>
+            <div class="current-score" id="current-score1">0</div>
+        </div>
+<!--end current score-->
+
+    </section>
+<!--end section player2-->
+<!--start section images-->
+     <img src="dice imgs/dice1.png" class="dice-img hidden">
+     <img src="dice imgs/dice2.png" class="dice-img hidden">
+     <img src="dice imgs/dice3.png" class="dice-img hidden">
+     <img src="dice imgs/dice4.png" class="dice-img hidden">
+     <img src="dice imgs/dice5.png" class="dice-img hidden">
+     <img src="dice imgs/dice6.png" class="dice-img hidden">
+<!--end section images-->
+<!--start section buttons-->
+    <button class="new-game">🔄NEW GAME</button>
+    <button class="roll-dice"><img src="dice imgs/download (6).png"> ROLL DICE</button>>
+    <button class="hold">HOLD</button>
+<!--end section buttons-->
+</div>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-color: #f70067;
+}
+.player{
+    width: 400px;
+    height:450px ;
+    margin-top: 100px;
+}
+.player h1{
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.current{
+    width: 180px;
+    height: 120px;
+    background-color: #f70067;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;  
+}
+
+.player0{
+    background-color: #fcc1da;
+    margin-left: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.player1{
+    background-color: #ff7eb4;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.finalScore0,.finalScore1{
+    font-size: 35px;
+    margin-left: 170px;
+}
+.new-game{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    top: 120px;
+    right: 460px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+.roll-dice{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    top: 400px;
+    right: 575px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.roll-dice img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 1px;
+   
+}
+.hold{
+    width: 85px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    top: 465px;
+    right: 680px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+
+}
+.dice-img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 220px;
+    right:675px;
+}
+.hidden{
+    display: none;
+}
+.player--active {
+    opacity: .6;
+}
+
+.player--winner {
+background-color: #2f2f2f;
+color: #f70067;
+}

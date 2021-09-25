@@ -1,0 +1,21 @@
+Our Game is *ROLE DICE*
+
+
+1)When You Click on *ROLE DICE* Button 
+ [  
+   Make Random Experiment ,Sum This Random Numbers & Put It in Div *CURRENT*.
+    ***NOTE HERE
+      When the dice is 1 --> it Switch the player.
+ ]
+
+2)When You Click on *HOLD* Button 
+  [ 
+   Switch The Player & Put The Sum Of Random Numbers in the Score Of Another Player.
+  ]
+
+Make this untill reach thr target *100*
+
+2)When You Click on *NEW GAME* Button 
+  [ 
+   Reload The Game.
+  ]
